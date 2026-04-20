@@ -42,33 +42,16 @@ npm install
 # Start development server
 npm run dev
 ```
+## 👤 Getting Started
 
-The application will be available at `http://localhost:5173`
+To test the application:
 
-**🎉 Sample data is pre-loaded!** You can immediately browse items and test all features.
+- Create an **Admin account** and a **User account** using the signup page  
+- Login with both roles in different sessions (or browser/incognito)  
+- Use the **User account** to add and request items  
+- Use the **Admin account** to approve or reject items from the admin dashboard  
 
-## 🎮 Demo Accounts
-
-The app comes with **pre-loaded sample data** for immediate testing:
-
-### Admin Account
-```
-Email: lijashree@college.edu
-Password: admin123
-```
-- Full admin access
-- Can approve/reject items
-- Access to admin dashboard
-
-### User Accounts
-```
-Email: krishnapriya@college.edu
-Password: user123
-```
-```
-Email: mithuna@college.edu
-Password: user123
-```
+💡 This helps demonstrate the complete workflow of the platform.
 - Standard user features
 - Can add and request items
 - View personal dashboard
