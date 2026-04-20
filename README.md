@@ -1,12 +1,5 @@
 # 🌱 ReuseHub - Sustainable Campus Resource Sharing Platform
 
-<div align="center">
-  <img src="https://img.shields.io/badge/React-18.3.1-blue?logo=react" alt="React">
-  <img src="https://img.shields.io/badge/TypeScript-Latest-blue?logo=typescript" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Tailwind-v4-38bdf8?logo=tailwindcss" alt="Tailwind CSS">
-  <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
-</div>
-
 <br>
 
 **ReuseHub** is a modern web application designed to promote sustainability on college campuses by enabling students and staff to share, donate, and request items within their community. The platform reduces waste, encourages resource reuse, and builds a culture of sustainability.
@@ -43,16 +36,11 @@
 
 ### Installation
 
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/reusehub.git
-cd reusehub
-
 # Install dependencies
-pnpm install
+npm install
 
 # Start development server
-pnpm run dev
+npm run dev
 ```
 
 The application will be available at `http://localhost:5173`
@@ -84,16 +72,6 @@ Password: user123
 - Standard user features
 - Can add and request items
 - View personal dashboard
-
-### Pre-loaded Items
-The app includes 5 sample items:
-- 📱 **ASUS Laptop** - Perfect for programming
-- 🔌 **HP Laptop Charger** - 65W, compatible with most HP models
-- 📡 **Ultrasonic Sensor HC-SR04** - For Arduino/Raspberry Pi projects
-- 🖥️ **Raspberry Pi 4 Model B** - 4GB RAM with SD card
-- 📚 **HTML & CSS Book** - Complete guide for web development
-
-All items are already approved and ready to browse!
 
 ## 📂 Project Structure
 
@@ -181,42 +159,19 @@ reusehub/
 5. Request is sent to item owner
 6. Owner approves/rejects from Requests page
 
-## 🧪 Testing
 
-### Quick Test Flow
-1. Start the app: `pnpm run dev`
-2. Login as **Lijashree** (admin) to see all features
-3. Browse the 5 pre-loaded items
-4. Check real-time statistics on dashboard
-5. Go to Admin Panel to see approval system
-6. Login as **Krishnapriya** or **Mithuna** to test user features
+## 📊 Sample Data
 
-### Testing Checklist
-- [x] Pre-loaded sample data
-- [x] 3 Demo accounts ready
-- [x] 5 Sample items with images
-- [x] Real-time statistics
-- [x] Admin approval workflow
-- [x] Request system
-- [x] Terms & Conditions
-- [x] Image upload functionality
+This project uses localStorage for data persistence.
 
-## 🚢 Deployment
+👉 To test the application:
+- Add a few sample items manually using the "Add Item" feature
+- Example items:
+  - Laptop (Electronics)
+  - Aptitude Book (Books)
+  - Arduino Kit (Project Components)
 
-### Build for Production
-```bash
-pnpm run build
-```
-
-### Deployment Platforms
-- **Vercel** - Recommended (zero config)
-- **Netlify** - Simple deployment
-- **GitHub Pages** - Free hosting
-
-### Note on Sample Data
-Sample data is loaded automatically on first run and persists in browser LocalStorage. To reset:
-- Open browser DevTools → Application → Local Storage
-- Clear `sample_data_loaded` key to reload sample data
+💡 Once added, items will appear in the dashboard and can be used to test the full workflow.
 
 ## 📝 License
 
